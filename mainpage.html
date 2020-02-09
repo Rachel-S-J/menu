@@ -2,34 +2,53 @@
 <html lang = "en">
     <head>
         <meta charset = "utf-8">
-        <link rel = "stylesheet" type = "text/css" href = 'style.css'>
+        <link rel = "stylesheet" type = "text/css" href = "mainpage.css">
         <title>RIT Food Menu</title>
     </head>
     <body>
         <h1>BAKERIES/COFFEE SHOPS</h1>
-            <ul>
-                <li>Artesano's</li>
-                <li>Beanz</li>
-            </ul>
+            <div class="dropdown">Artesano's
+                <div class = "dropdown-content">
+                    <p>Coffee</p>
+                    <p>Tea</p>
+                    <p>Pastries</p>
+                    <p>Sandwiches</p>
+                </div>
+            </div>    
+            <div class="dropdown">Beanz
+                <div class="dropdown-content">
+                    <p>Coffee</p>
+                    <p>Tea</p>
+                    <p>Milkshakes</p>
+                    <p>Smoothies</p>
+                    <p>Breakfast</p>
+                    <p>Desserts</p>
+                </div>
+            </div>    
         <h1>DINING LOCATIONS</h1>
-            <ul>
-                <li class = 'dropdown'><a href = '#'>Commons<span class = 'fa fa-angle-down'></span></a>
-                    <ul class = "dropdown content">
-                        <li><a>Pasta</a></li>
-                        <li><a>Pizza</a></li>
-                        <li><a>Drinks</a></li>
-                        <li><a>Soups</a></li>
-                        <li><a>Subs</a></li>
-                        <li><a>Grill</a></li>
-                    </ul>
-                <li>Crossroads</li>
-                <li>Salsaritas</li>
-            </ul>
+            <div class = "dropdown">Commons     
+                <div class = "dropdown-content">
+                    <p>Pasta</p>
+                    <p>Pizza</p>
+                    <p>Drinks</p>
+                    <p>Soups</p>
+                    <p>Subs</p>
+                    <p>Grill</p>
+                </div>
+            </div>   
+            <div class="dropdown">Crossroads
+                <div class="dropdown-content">
+                    <p>Grill</p>
+                    <p>Pasta</p>
+                    <p>Asian</p>
+                    <p>Subs</p>
+                    <p>Smoothies</p>
+                </div>
+            </div>    
+            <div class="dropdown">Salsaritas</div>
         <h1>CONVENIENCE STORES</h1>
-            <ul>
-                <li>Bytes</li>
-                <li>Corner Store</li>
-                <li>Foreign Market</li>
-            </ul>
+                <div class="dropdown">Bytes</div>
+                <div class="dropdown">Corner Store</div>
+                <div class="dropdown">Foreign Market</div>
     </body>
 </html>
