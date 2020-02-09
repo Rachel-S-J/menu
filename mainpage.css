@@ -1,0 +1,43 @@
+body{
+    margin 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #3ab4a6;
+}
+ul::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+nav>ul>li{
+    float: left;
+    position: relative;
+}
+a{
+    display: block;
+    padding: 20px;
+       color: #fff;
+    text-decoration: none;
+}
+a:hover,.dropdown:hover{
+    background: #49505a;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 250 px;
+    background: #49505a;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dopdown:hover a:hover{
+    background: #32323A;
+}
