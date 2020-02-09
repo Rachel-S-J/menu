@@ -1,3 +1,11 @@
-span{
-    padding: 10px;
+.search{
+    padding: 12px;
+}
+h1{
+    color: rgb(233, 117, 22);
+    padding-left: 8px;
+}
+a:link{
+    padding: 16px;
+    text-decoration: none;
 }
